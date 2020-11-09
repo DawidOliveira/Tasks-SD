@@ -4,13 +4,21 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Para o bom funcionamento do projeto deve-se instalar:
+* [Flutter SDK] - Flutter!
+* [Chrome] - Mais fácil de executar o projeto sem erros ou demora.
+* Opcional: editores de texto/código como: Visual Studio Code (oferece inúmeras extensões que facilitam no desenvolvimento de qualquer software com qualquer linguagem).
 
-A few resources to get you started if this is your first Flutter project:
+- Quando [Flutter SDK] for instalado, deve-se executar os seguintes comandos no cmd do windows (Para a visualização do projeto na versão web):
+* flutter channel beta
+* flutter upgrade
+* flutter config --enable-web
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- E por fim, entre na raiz do projeto frontend e execute:
+* flutter run -d chrome
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+[Flutter SDK]: <https://flutter.dev/docs/get-started/install>
+[Chrome]: <https://www.google.com/chrome/>
+[Ace Editor]: <http://ace.ajax.org>
