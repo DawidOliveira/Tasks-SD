@@ -86,3 +86,7 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+Dockerfile
+.dockerignore
+dev.sqlite3
