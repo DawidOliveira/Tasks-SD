@@ -3,7 +3,6 @@ const db = require('../config/db')
 const consign = require('consign')
 
 const PORT = 3000;
-const HOST = '0.0.0.0';
 
 consign()
     .then('./config/middlewares.js')
@@ -13,4 +12,6 @@ consign()
 
 app.db = db
 
-app.listen(PORT, HOST)
+app.listen(PORT, () => {
+    console.log(`Server started on port ${PORT}`)
+})
